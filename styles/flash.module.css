@@ -1,0 +1,65 @@
+.flash {
+  background-color: black;
+  height: 100vh;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img3 {
+  position: absolute;
+  top: -10%;
+  left: 0;
+  width: 100%;
+}
+
+.img1 {
+  width: 100%;
+  z-index: 2;
+  left: -6%;
+  position: absolute;
+  top: -10%;
+}
+
+.img2 {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  top: -10%;
+  left: 0;
+}
+
+.logo {
+  width: 120px;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.logo img,
+.logo p {
+  z-index: 99;
+  position: relative;
+}
+
+.logo img {
+  margin: 1rem 0;
+}
+
+.logo p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  color: #fff;
+}
+
+
+
+/* .img5 {
+    right: 0;
+    z-index: 1;
+} */

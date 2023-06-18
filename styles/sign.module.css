@@ -1,0 +1,75 @@
+.sign {
+  color: white;
+}
+
+.sign form {
+  padding-top: 3.5rem;
+}
+
+.sign label {
+  font-size: 15px;
+}
+
+.sign h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  color: #fff;
+  margin: 2rem 0;
+}
+
+.ff {
+  padding: 0.5rem 0;
+  margin: 0.3rem 0;
+  border-bottom: 1px solid white;
+}
+
+.ff svg {
+  color: white;
+  width: 10%;
+}
+
+.sign input {
+  border: none;
+  outline: none;
+  padding: 0.3rem 0;
+  color: white;
+  background: transparent;
+  width: 90%;
+  font-size: 18px;
+}
+
+.sign a {
+  color: rgb(0, 238, 255);
+}
+
+.sign p {
+  margin: 1rem 0;
+}
+
+.sign a p {
+  margin: 0;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: absolute;
+  width: 100%;
+  top: -10%;
+  left: -5%;
+}
+
+.img2 {
+  z-index: 1;
+  top: -15%;
+  left: -10%;
+}
+
+.img1 {
+  z-index: 2;
+  top: -20%;
+  left: -15%;
+}
