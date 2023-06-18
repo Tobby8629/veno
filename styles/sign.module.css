@@ -58,18 +58,18 @@
 .img3 {
   position: absolute;
   width: 100%;
-  top: -10%;
+  top: -13%;
   left: -5%;
 }
 
 .img2 {
   z-index: 1;
-  top: -15%;
+  top: -19%;
   left: -10%;
 }
 
 .img1 {
   z-index: 2;
-  top: -20%;
+  top: -23%;
   left: -15%;
 }
